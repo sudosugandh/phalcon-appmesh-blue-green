@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/nov28-app",
+          "awslogs-group": "/ecs/aws-phalcon",
           "awslogs-region": "eu-west-3",
           "awslogs-stream-prefix": "ecs"
         }
@@ -123,8 +123,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/nov28-app:1",
-  "family": "nov28-app",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/aws-phalcon:1",
+  "family": "aws-phalcon",
   "requiresAttributes": [
     {
       "targetId": null,
