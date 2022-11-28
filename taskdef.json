@@ -9,8 +9,8 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/mesh-app",
-          "awslogs-region": "eu-west-3",
+          "awslogs-group": "/ecs/phalcon-td",
+          "awslogs-region": "eu-west-2",
           "awslogs-stream-prefix": "ecs"
         }
       },
@@ -59,7 +59,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "mesh-app"
+      "name": "phalcon"
     },
     {
       "dnsSearchDomains": null,
@@ -73,7 +73,7 @@
       "environment": [
         {
           "name": "APPMESH_VIRTUAL_NODE_NAME",
-          "value": "mesh/phalcon-env/virtualNode/phalcon"
+          "value": "mesh/phalcon-appmesh/virtualNode/phalcon"
         }
       ],
       "resourceRequirements": null,
@@ -87,7 +87,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "840364872350.dkr.ecr.eu-west-3.amazonaws.com/aws-appmesh-envoy:v1.24.0.0-prod",
+      "image": "840364872350.dkr.ecr.eu-west-2.amazonaws.com/aws-appmesh-envoy:v1.24.0.0-prod",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -123,8 +123,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/mesh-phalcon:1",
-  "family": "mesh-phalcon",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-2:222191613406:task-definition/phalcon-td:2",
+  "family": "phalcon-td",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -215,7 +215,7 @@
     "cpuArchitecture": null
   },
   "cpu": "512",
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": {
