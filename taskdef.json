@@ -9,8 +9,8 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/task-php",
-          "awslogs-region": "eu-west-3",
+          "awslogs-group": "/ecs/aws-phalcon",
+          "awslogs-region": "eu-west-1",
           "awslogs-stream-prefix": "ecs"
         }
       },
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/task-php:1",
-  "family": "task-php",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:222191613406:task-definition/aws-phalcon:1",
+  "family": "aws-phalcon",
   "requiresAttributes": [
     {
       "targetId": null,
