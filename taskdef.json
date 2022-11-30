@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": <PHP>,
+      "image": "<PHP>",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": [
