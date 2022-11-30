@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": <PHP>,
+      "image": <PHALCON>,
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
