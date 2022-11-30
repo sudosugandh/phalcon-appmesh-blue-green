@@ -9,8 +9,8 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/aws-phalcon",
-          "awslogs-region": "eu-west-1",
+          "awslogs-group": "/ecs/cp-phalcon",
+          "awslogs-region": "eu-west-3",
           "awslogs-stream-prefix": "ecs"
         }
       },
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:222191613406:task-definition/aws-phalcon:1",
-  "family": "aws-phalcon",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/cp-phalcon:1",
+  "family": "cp-phalcon",
   "requiresAttributes": [
     {
       "targetId": null,
