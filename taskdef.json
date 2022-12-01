@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "222191613406.dkr.ecr.eu-west-3.amazonaws.com/aws-phalcon:latest",
+      "image": <PHALCON>,
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": [
