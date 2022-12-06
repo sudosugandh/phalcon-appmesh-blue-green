@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/phalcon-cf",
+          "awslogs-group": "/ecs/phalcon",
           "awslogs-region": "eu-west-3",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,7 +37,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": <PHALCON>,
+      "image":<PHALCON>,
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": [
@@ -123,8 +123,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/phalcon-cf:13",
-  "family": "phalcon-cf",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-3:222191613406:task-definition/phalcon:2",
+  "family": "phalcon",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -215,7 +215,7 @@
     "cpuArchitecture": null
   },
   "cpu": "512",
-  "revision": 13,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": {
